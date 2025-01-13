@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+/* body{ */
+    /* If we want to hide the horizontal scroll bar so we can use this property overflow-x means horizontal and the horizontal-y means vertical
+    overflow-x: hidden;
+    
+}
+ */
+.footer-blog{
+    display: flex;
+    justify-content: center;
+    
+}
