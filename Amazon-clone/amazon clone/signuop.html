@@ -1,0 +1,282 @@
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>sign in</title>
+      <link rel="stylesheet" href="style.css">
+      <style>
+        .form {
+          display: flex;
+          align-items: center;
+          align-content: center;
+          justify-content: center;
+          justify-items: center;
+          padding-top: 50px;
+          font-size: 2rem;
+          border: 1px solid skyblue;
+          margin-left: 500px;
+          margin-right: 500px;
+          margin-top: 50px;
+          padding-bottom: 10px;
+          height: 360px;
+        }
+        .acbtn{
+          display: flex;
+          align-items: center;
+          align-content: center;
+          justify-content: center;
+          justify-items: center;
+          
+          font-size: 2rem;
+          border: 1px solid skyblue;
+          margin-left: 500px;
+          margin-right: 500px;
+          margin-top: 50px;
+          padding-top: 15px;
+          padding-bottom: 20px;
+          margin-bottom: 100px;
+          height: 15px;
+        }
+        .mailno {
+          padding-top: 0.70rem;
+        }
+        .sign {
+          font-size: 1.5rem;
+        }
+        .sginbtn{
+                background-color: orange;
+                width: 300px;
+                height: 30px;
+        }
+        .sginbtn:hover{
+          background-color: rgb(98, 170, 170);
+          color: black;
+          font-weight: 700;
+          border: 1px solid white;
+
+        }
+        .btbt2{
+          background-color: orange;
+                width: 300px;
+                height: 30px;        
+        }
+        .btbt2 a{
+                 color: black;
+               font-size: 0.70rem;
+        }
+        .btbt2:hover{
+          background-color: rgb(98, 170, 170);
+          color: black;
+          font-weight: 800;
+          border: 1px solid white;
+        }
+        .form-control{
+          width: 300px;
+          padding: auto;
+          height: 30px;
+        }
+        .form-control:hover{
+          border-color: aqua;
+        }
+        .supportpara{
+          padding-top: 10px;
+          font-size: 12px;
+        }
+        a{
+          color: #007185;
+          font-weight: 900;
+        }
+        hr{
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+        .sginfoot{
+          background-color: #007185;
+          height: 500px;
+          width: auto;
+        }
+        .createbtn{
+          width: 300PX;
+          display: flex;
+          justify-content: center;
+          align-items: center;align-content: center;
+        }
+        .acbtn{
+          display: flex;
+          align-items: center;
+          align-content: center;
+          padding-right: 80px;
+          padding-top: 20px;
+          margin-bottom: 20px;
+        }
+      </style>
+    </head>
+    <body>
+      <header>
+        <div class="navbar">
+          <!--box1-->
+          <div class="nav-logo border">
+            <div class="logo"></div>
+          </div>
+
+          <div class="nav-address border">
+            <!--box2-->
+            <p class="add-first">Deliver to</p>
+            <div class="add-icon">
+              <i class="fa-solid fa-location-dot"></i
+              ><!--icon location form font awseome-->
+              <p class="add-sec">India</p>
+            </div>
+          </div>
+
+          <div class="nav-search">
+            <!--box3-->
+            <select class="search-select">
+              <option>All</option>
+            </select>
+            <input placeholder="Search Amazon" class="search-input" />
+            <div class="search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+          </div>
+
+          <div class="nav-singin border">
+            <!--box4-->
+            <p><span>Hello,sign in</span></p>
+            <p class="nav-second">Account & List</p>
+          </div>
+
+          <div class="nav-return border">
+            <!--box4-->
+            <p><span>Returns</span></p>
+            <p class="nav-second">& Orders</p>
+          </div>
+
+          <div class="nav-cart border">
+            <!--box5-->
+            <i class="fa-solid fa-cart-shopping"></i>
+            Cart
+          </div>
+        </div>
+        <!--nav done-->
+
+        <div class="panel">
+          <!--panel-->
+          <div class="panel-all">
+            <i class="fa-solid fa-bars"></i>
+            All
+          </div>
+          <div class="panel-option">
+            <p>Today's Deals</p>
+            <p>Custome Service</p>
+            <p>Registery</p>
+            <p>Gift Cards</p>
+            <p>Sell</p>
+          </div>
+          <div class="panel-deals">Shop deals in Electronic</div>
+        </div>
+      </header>
+      <div class="form">
+        <form action="index.html">
+          <div class="form-group">
+            <div class="sing"><h3>Sign in</h3></div>
+            <div class="mailno"><h6>Email or mobile phone number</h6></div>
+            <label for="Email1"></label>
+            <input
+              type="email"
+              class="form-control"
+              id="Email1"
+              aria-describedby="emailHelp"
+              placeholder="Enter email"
+            />
+          </div>
+          <div class="form-group">
+            <label for="Password1"></label>
+            <input
+              type="password"
+              class="form-control"
+              id="Password1"
+              placeholder="Password">
+          </div>
+
+          <div class="btnsgin"><button type="submit" class="sginbtn">Sign in</button>
+              <div class="supportpara"><p>By continuing, you agree to Amazon's Conditions of Use and Privacy Notice.</p>
+              </div>
+              <div class="supportpara"><a href=""><p>Need help?</p></a></div>
+              <hr>
+              <div class="supportpara"><p><b>Buying for work?</p></b></div>
+              <div class="supportpara"><a href=""><p>Shop on Amazon Business</p></a></div>
+      
+        
+        
+      </div>
+    </form>
+    </div>
+    <section class="acbtn">
+      <div class="createbtn">
+        <button class="btbt2"><a href="newAccount.html">Create Your Amazon Account</a></button>
+      </div>
+    </section>
+    <footer>
+      <div class="foot-panel1">
+          Back to Top
+      </div>
+
+      <div class="foot-panel2">
+          <ul>
+              <p>Get to Know Us</p>
+              <a>Careers</a>
+              <a>Blog</a>
+              <a>About Amazon</a>
+              <a>Investor Relations</a>
+              <a>Amazon Devices</a>
+              <a>Amazon Science</a>
+          </ul>
+          <ul>
+              <p>Make Money with Us</p>
+              <a>Careers</a>
+              <a>Blog</a>
+              <a>About Amazon</a>
+              <a>Investor Relations</a>
+              <a>Amazon Devices</a>
+              <a>Amazon Science</a>
+          </ul>
+          <ul>
+              <p>Amazon Payment Products</p>
+              <a>Careers</a>
+              <a>Blog</a>
+              <a>About Amazon</a>
+              <a>Investor Relations</a>
+              <a>Amazon Devices</a>
+              <a>Amazon Science</a>
+          </ul>
+          <ul>
+              <p>Let Us Help You</p>
+              <a>Careers</a>
+              <a>Blog</a>
+              <a>About Amazon</a>
+              <a>Investor Relations</a>
+              <a>Amazon Devices</a>
+              <a>Amazon Science</a>
+          </ul>
+      </div>
+
+                          <!--foot-panel3-->
+      <div class="foot-panel3">
+          <div class="logo"></div>
+      </div>
+
+                          <!--foot-panel3-->
+      <div class="foot-panel4">
+          <div class="foot-pages">
+              <a>Conditions of Use</a>
+              <a>Privacy Notice</a>
+              <a>Your Afs Privacy Choices</a>
+          </div>
+          <div class="copyright">© 1996-2024, Amazon.com, Inc. or its affiliates</div>
+      </div>
+
+  </footer>
+    </body>
+  </html>
