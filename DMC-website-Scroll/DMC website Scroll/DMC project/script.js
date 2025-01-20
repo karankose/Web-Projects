@@ -31,20 +31,20 @@ let TeamImgArr =[
    {
       "id":1,
       "name": "KARAN ",
-      "images": "/pics/karan22.jpg",
+      "images": "/DMC-website-Scroll/DMC website Scroll/DMC project/pics/karan22.jpg",
       "post":"Backend Developer",
     },
     {
       "id":2,
       "name": "SAWAN ",
-      "images": "/pics/sawan.jpg",
+      "images": "/DMC-website-Scroll/DMC website Scroll/DMC project/pics/sawan.jpg",
       "post":"UiUx Designer",
       
     },
     {
       "id":3,
       "name": "SHUBHAM ",
-      "images": "/pics/shubham.jpg",
+      "images": "/DMC-website-Scroll/DMC website Scroll/DMC project/pics/shubham.jpg",
       "post":"Beckend Developer",
 
 
@@ -52,19 +52,19 @@ let TeamImgArr =[
     {
       "id":4,
       "name": "VISHAL ",
-      "images": "/pics/vishal.jpg",
+      "images": "/DMC-website-Scroll/DMC website Scroll/DMC project/pics/vishal.jpg",
       "post":"Business Analyst",
     },
     {
       "id":5,
       "name": "MAYUR",
-      "images": "/pics/mayur.jpg",
+      "images": "/DMC-website-Scroll/DMC website Scroll/DMC project/pics/mayur.jpg",
       "post":"FrontEnd Developer",
     },
     {
       "id":6,
       "name": "JAYESH",
-      "images": "/pics/jayesh.jpg",
+      "images": "/DMC-website-Scroll/DMC website Scroll/DMC project/pics/jayesh.jpg",
       "post":"DBA",
 
     },      
@@ -1039,7 +1039,7 @@ function AboutUs(){
    
 
    let Box1 = document.createElement("div");
-   Box1.innerHTML = '<img src="/pics/pic1.jpg">'
+   Box1.innerHTML = '<img src="/DMC-website-Scroll/DMC website Scroll/DMC project/pics/pic1.jpg">'
    Box1.setAttribute("class","shadow-lg p-3 mb-5  rounded pt-4")
    Box1.setAttribute("style","width: 550px; height:550px; ");
 
