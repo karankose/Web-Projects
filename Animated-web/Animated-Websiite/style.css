@@ -159,3 +159,51 @@ nav{
     }
     
 }
+
+
+#page2{
+    min-height: 100vh ;
+    width: 100%;
+    background-color: #EFEAE3;
+    padding: 8vw 0;
+}
+
+/* movetext */
+
+#moving-text{
+    white-space: nowrap;
+    overflow-x: auto;
+}
+#moving-text::-webkit-scrollbar{
+    display: none;
+}
+.con{
+   white-space: nowrap;
+   display: inline-block;
+   animation-name:move;
+  animation-duration:10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+#moving-text h1{
+   
+    display: inline-block;
+    font-size: 9vw;
+}
+#gola{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #FE320A;
+    margin: 1vw 2vw;
+}
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
